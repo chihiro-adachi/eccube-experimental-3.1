@@ -11,6 +11,7 @@ $conn = array(
     'path' => __DIR__ . '/db.sqlite',
 );
 
+// zend/codeはphp5.6以上
 $generator = \Zend\Code\Generator\ClassGenerator::fromReflection(
     new \Zend\Code\Reflection\ClassReflection('Product')
 );
