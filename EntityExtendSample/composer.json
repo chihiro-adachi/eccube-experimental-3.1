@@ -1,0 +1,10 @@
+{
+    "require": {
+        "doctrine/orm": "2.5.*",
+        "symfony/yaml": "2.*",
+        "zendframework/zend-code": "*"
+    },
+    "autoload": {
+        "psr-0": {"": "src/"}
+    }
+}
